@@ -1,0 +1,7 @@
+---
+ - name: my first playbook in yaml language for
+   hosts: all
+   tasks:
+     - name: ping the host
+       ping: 
+...
